@@ -1,0 +1,61 @@
+{
+	"geode": "4.6.3",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "sammus.100_lives_challenge",
+	"name": "100 Lives Challenge",
+	"version": "v1.0.0",
+	"developer": "Sammus",
+	"description": "",
+	"resources": {
+		"sprites": [
+			"resources/Up.png",
+			"resources/Down.png",
+			"resources/Reset.png"
+		]
+	},
+	"settings": {
+		"ModEnabled": {
+			"type": "bool",
+			"name": "Enabled",
+			"description": "Toggle whether the mod is enabled",
+			"default": true
+		},
+		"ResetEnabled": {
+			"type": "bool",
+			"name": "Reset Button Enabled",
+			"description": "Toggle whether the Reset button is enabled",
+			"default": true
+		},
+		"TextTransparency": {
+			"type": "float",
+			"name": "Text transparency",
+			"description": "Adjusts the transparency of the text",
+			"default": 1,
+			"min": 0,
+			"max": 1,
+			"control": {
+				"slider": true
+			}
+		},
+		"ButtonsTransparency": {
+			"type": "float",
+			"name": "Buttons transparency",
+			"description": "Adjusts the transparency of the buttons",
+			"default": 1,
+			"min": 0,
+			"max": 1,
+			"control": {
+				"slider": true
+			}
+		}
+	},
+	"links": {
+		"community": "https://discord.gg/JvTAk5rJ2p"
+	},
+	"tags": ["gameplay", "offline"]
+}
